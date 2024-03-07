@@ -1,0 +1,64 @@
+#popup-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 98;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-content{
+    max-width: 600px;
+    padding: 30px;
+    box-sizing: border-box;
+    border: solid 1px #000000;
+    border-radius: 10px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.popup-content h2{
+    font-family: "Luckiest Guy";
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 4vh;;
+}
+
+.popup-content{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.popup-link{
+    text-decoration: none;
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.popup-link a{
+    color: white;
+    text-decoration: none;
+}
+
+.popup-text{
+    /* display: flex; */
+    margin: 20px 0;
+    height: 2em;
+    width: 20em;
+    border: solid 1px #000000;
+    border-radius: 3px;
+}
+
+.hidden {
+    display: none;
+}
